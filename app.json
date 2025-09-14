@@ -1,23 +1,4 @@
 {
-  "expo": {
-    "name": "Wattway",
-    "slug": "wattway",
-    "version": "1.0.0",
-    "android": {
-      "package": "com.yourname.wattway",
-      "config": {
-        "googleMaps": {
-          "apiKey": "YOUR_ANDROID_GOOGLE_MAPS_API_KEY"
-        }
-      }
-    },
-    "extra": {
-      "SUPABASE_URL": "",
-      "SUPABASE_ANON_KEY": "",
-      "GOOGLE_MAPS_API_KEY": ""
-    },
-    "plugins": [
-      "expo-font"
-    ]
-  }
+  "name": "my-expo-next",
+  "slug": "my-expo-next"
 }

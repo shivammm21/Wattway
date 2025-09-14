@@ -1,40 +1,14 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "strict": true,
-    "jsx": "react-native",
-    "moduleResolution": "bundler",
-    "allowJs": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@screens/*": [
-        "src/screens/*"
-      ],
-      "@services/*": [
-        "src/services/*"
-      ],
-      "@constants/*": [
-        "src/constants/*"
-      ],
-      "@assets/*": [
-        "assets/*"
-      ]
-    }
+    "strict": false,
+    "incremental": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
   },
-  "exclude": [
-    "node_modules",
-    "babel.config.js"
-  ],
+  "extends": "expo/tsconfig.base",
   "include": [
-    "src/**/*",
-    "App.tsx"
-  ],
-  "extends": "expo/tsconfig.base"
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
